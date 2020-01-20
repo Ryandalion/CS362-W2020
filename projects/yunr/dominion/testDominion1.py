@@ -21,10 +21,9 @@ new_box = testUtility.create_box(nV)
 
 supply_order = testUtility.create_supply_order()
 
-supply_box = testUtility.intialize_supply_box(new_box)
+used_box = testUtility.intialize_supply_box(new_box)
 
-
-supply = testUtility.fill_supply(supply_box, nV, nC, player_list)
+supply = testUtility.fill_supply(used_box, nV, nC, player_list)
 
 
 
